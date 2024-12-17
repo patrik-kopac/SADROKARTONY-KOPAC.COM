@@ -321,6 +321,64 @@
                 }
             }
 
+.welcome-h2-small {
+    display: none;
+}
+
+            @media (max-width: 530px) {
+                .welcome-h2-small {
+                    display: block;
+                }
+
+                .welcome-h2-big {
+                    display: none;
+                }
+
+            }
+
+
+
+
+#welcome h3 {
+    color: var(--green);
+    font-weight: 700;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+            @media (max-width: 1000px) {
+                #welcome h3 {
+                    font-size: 1.5rem;
+                }
+            }
+
+            @media (max-width: 850px) {
+                #welcome h3 {
+                    width: 55%;
+                    text-align: center;
+                }
+            }
+
+            @media (max-width: 850px) {
+                #welcome .subtitle {
+                    display: none;
+                }
+            }
+
+            @media (max-width: 700px) {
+                #welcome h3 {
+                    width: 70%;
+                }
+            }
+
+            @media (max-width: 530px) {
+                #welcome h3 {
+                    display: none;
+                }
+            }
+            
+            
+            
 
 
 
@@ -498,7 +556,7 @@
                 #about-us .dad,
                 #about-us .son {
                     display: flex;
-                    justify-content: space-between;
+                    justify-content: center;
                     padding: 0;
                 }
             }
@@ -537,14 +595,14 @@
                 }
             }
 
-#about-us .about-us-photo {
+#about-us .about-us-info {
     text-align: center;
 
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
 }
 
-            @media(min-width: 700px) {
+            /* @media(min-width: 800px) {
                 #about-us .about-us-info {
                     width: 70%;
                 }
@@ -554,27 +612,22 @@
                 #about-us .about-us-info {
                     width: 100%;
                 }
-            }
+            } */
 
-#about-us img {
-    border-radius: 20px;
-
-    width: 100%;
-    object-position: center;
-    object-fit: cover;
-}
-
+            
 #about-us ul {
-    padding-left: 10%;
     font-size: 1.2rem;
 }
-
+            
             @media(min-width: 900px) {
                 #about-us ul {
                     font-size: 1.4rem;
                 }
             }
-
+            
+#about-us li {
+    list-style: none;
+}
 
 
 
